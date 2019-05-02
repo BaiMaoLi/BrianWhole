@@ -1,0 +1,26 @@
+/* The version of Bourbon used in this Pen was 4.* */
+@import "bourbon"
+$data-color: CornflowerBlue
+$grid-color: #ccc
+
+#Graph
+  font-size: em(13)
+
+  path, line
+    fill: none
+  
+  .marker
+    fill: $data-color
+
+  .tick line
+    fill: none
+    stroke: $grid-color
+    stroke-width: 1
+    shape-rendering: crispEdges
+
+#visualisation-line
+  fill: none
+  stroke-linecap: round
+  stroke-linejoin: round
+  stroke-width: 3
+  stroke: $data-color

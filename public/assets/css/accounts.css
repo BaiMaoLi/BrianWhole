@@ -1,0 +1,120 @@
+* {box-sizing: border-box}
+body {font-family: "Lato", sans-serif;}
+.tab {
+  /* float: left; */
+  border: 1px solid #1ad706;
+  background-color: #f1f1f1;
+  /* height: 690px; */
+}
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tabcontent {
+  float: left;
+  padding: 0px 12px;
+  border: 1px solid #ccc;
+  color:white;
+  height: 750px;
+  background-color: #00007f;;
+  text-align: center;
+  border-radius: 0px 0px 5px 0px;
+  display:none;
+}
+.btn:hover, .btn:focus, .btn.focus{
+   color: #645bf1;
+   border:1px solid #000 !important;
+}
+.bttn{
+    border:1px solid #a2a2a2 !important;
+    border-radius: 2px !important
+}
+.tools-9-tab{
+    height:750px;
+   padding: 0px 0px;
+   background-color: #f3f3f3;
+   overflow-y: auto;
+}
+.tools-8-tab{
+   padding: 0px 0px;
+   background-color: #f3f3f3;
+
+
+}
+
+@media (max-width:768px){
+.dash-2-cls{
+    width:100%;
+}
+}
+
+@media (max-width:992px){
+.tools-9-tab{width:100%;}
+.tabcontent{width:100%;}
+.tools-8-tab{width:100%;}
+}
+
+@media (min-width:992px){
+.tools-8-tab{width:50%;}
+
+}
+.tablinks:hover{
+   background-color: #ffffff;
+}
+.tablinks:active{
+   background-color: #ffffff;
+}
+.tablinks:focus{
+   background-color: #ffffff;
+}
+.tablinks{
+   border-bottom:1px solid #dcdcdc !important;
+}
+.acc-row-1{
+  padding:62px !important;
+}
+.opa-img{
+  opacity: .3;
+}
+.content-heading{
+  margin-top: 40px !important;
+}
+.content-para{
+  margin-top: 40px !important;
+}
+.content-btn{
+  margin-top: 40px !important;
+  height: 90px;
+  width: 250px;
+}
+.tablinks-1{
+  height: 60px !important;
+    position: relative;
+    top: -60px;
+    font-size: 18px;
+    background-color: #f3f3f3 !important;
+    border:1px solid #ccc !important;
+    border-radius: 0px 0px 0px 5px !important;
+}
+.tablinks-1{
+   outline: none;
+   margin-top:60px;
+}
+.walletaddress::placeholder {
+  color:grey;
+}
+.walletlabel{
+  color:white;
+  font-size:25px;
+  margin-bottom:15px;
+  margin-top:20px;
+}

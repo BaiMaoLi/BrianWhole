@@ -1,0 +1,40 @@
+<?php
+
+use Illuminate\Support\Facades\Schema;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Database\Migrations\Migration;
+
+class CreateTransHistoriesTable extends Migration
+{
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('trans_histories', function (Blueprint $table) {
+            $table->increments('trans_histories_id');
+            $table->integer('user_id');
+            $table->string('sendername');
+            $table->string('receivername');
+            $table->string('amount');
+            $table->string('country')->nullable();
+            $table->string('mobile_money_account')->nullable();
+            $table->string('date')->nullable();
+            $table->string('time')->nullable();
+            $table->string('status')->nullable();
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('trans_histories');
+    }
+}

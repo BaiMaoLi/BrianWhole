@@ -1,0 +1,2 @@
+[16-Mar-2019 13:33:44 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/fr7lq1cx2rsz/public_html/lovecoding/app/helpers.php on line 3
+[16-Mar-2019 13:35:39 UTC] PHP Parse error:  syntax error, unexpected 'function' (T_FUNCTION) in /home/fr7lq1cx2rsz/public_html/lovecoding/app/helpers.php on line 3
